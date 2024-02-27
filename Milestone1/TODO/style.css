@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#todoItems {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  
+}

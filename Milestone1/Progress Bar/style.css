@@ -1,0 +1,27 @@
+body {
+  height: 200vh; /* Make the body taller to allow scrolling */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  border: 2px solid red;
+
+}
+
+#progressBarContainer {
+    border: 2px solid yellowgreen;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: #f0f0f0;
+  z-index: 1000;
+}
+
+#progressBar {
+    border: 2px solid black;
+
+  height: 100%;
+  width: 0;
+  background-color: #4caf50;
+  transition: width 0.3s ease;
+}
